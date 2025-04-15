@@ -15,7 +15,7 @@ connectDB(url)
 
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://alukas-ecommerce.vercel.app'],
     credentials: true,
 }));
 
